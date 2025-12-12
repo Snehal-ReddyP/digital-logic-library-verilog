@@ -4,7 +4,7 @@ This repository contains a clean and organized collection of basic and intermedi
 digital logic modules implemented in Verilog HDL.  
 
 
-## 🧱 Modules Included
+# Modules Included
 
 # Basic Gates
 - AND, OR, NOT, NAND, NOR, XOR, XNOR
