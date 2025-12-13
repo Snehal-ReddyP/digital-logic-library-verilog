@@ -28,6 +28,13 @@ digital logic modules implemented in Verilog HDL.
 | 2x4 Decoder | Activates one output based on input | [View](combinational_circuits/decoder_2x4/) |
 | 4-bit Comparator | Compares two 4-bit numbers | [View](combinational_circuits/comparator_4bit/) |
 
+## Sequential Circuits (Flip-Flops)
+
+| Flip-Flop | Description | Link |
+|----------|-------------|------|
+| D Flip-Flop | Positive edge–triggered data flip-flop | [View](sequential_circuits/d_flipflop/) |
+| JK Flip-Flop | Set, Reset, Toggle, Hold operations | [View](sequential_circuits/jk_flipflop/) |
+| T Flip-Flop | Toggles output when T = 1 | [View](sequential_circuits/t_flipflop/) |
 
 ## How to Use
 
