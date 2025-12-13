@@ -30,18 +30,6 @@ Each module includes:
 - Input stimulus  
 - Waveform output (in waveforms/)
 
-
-# Tools Used
-- ModelSim / QuestaSim  
-- Verilog HDL  
-- (Optional) GTKWave
-
-## Simulation Waveform
-
-![AND Gate Waveform](waveforms/and_gate_waveform.png)
-
-
-
 # Author
 **Snehal Reddy**  
 MIT Manipal  
