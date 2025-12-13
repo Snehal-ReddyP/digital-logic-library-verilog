@@ -3,40 +3,6 @@
 This repository contains a clean and organized collection of basic and intermediate
 digital logic modules implemented in Verilog HDL.  
 
-
-# Modules Included
-
-# Basic Gates
-- AND, OR, NOT, NAND, NOR, XOR, XNOR
-
-# Combinational Circuits
-- Half Adder  
-- Full Adder  
-- 2x1 MUX, 4x1 MUX  
-- 2x4 Decoder  
-- 4-bit Comparator  
-
-# Sequential Circuits
-- D Flip-Flop  
-- T Flip-Flop  
-- JK Flip-Flop  
-- 4-bit Counter  
-
-
-# Simulation
-
-Each module includes:
-- Testbench  
-- Input stimulus  
-- Waveform output (in waveforms/)
-
-# Verilog Digital Library
-
-A collection of synthesizable Verilog modules with testbenches and simulation waveforms.  
-This library currently includes **basic logic gates**.
-
----
-
 ## Contents
 
 ### Logic Gates
@@ -51,52 +17,17 @@ This library currently includes **basic logic gates**.
 | XOR  | 2-input XOR gate  | [View](logic_gates/xor_gate/) |
 | XNOR | 2-input XNOR gate | [View](logic_gates/xnor_gate/) |
 
----
+## Combinational Circuits
 
-## How to Use
+| Circuit | Description | Link |
+|--------|-------------|------|
+| Half Adder | 1-bit binary adder (Sum & Carry) | [View](combinational_circuits/half_adder/) |
+| Full Adder | 1-bit adder with carry-in | [View](combinational_circuits/full_adder/) |
+| 2x1 MUX | Selects one of two inputs | [View](combinational_circuits/mux_2x1/) |
+| 4x1 MUX | Selects one of four inputs | [View](combinational_circuits/mux_4x1/) |
+| 2x4 Decoder | Activates one output based on input | [View](combinational_circuits/decoder_2x4/) |
+| 4-bit Comparator | Compares two 4-bit numbers | [View](combinational_circuits/comparator_4bit/) |
 
-1. Navigate to the desired gate folder.
-2. Open the Verilog files (`.v`) for RTL code.
-3. Open the testbench files (`_tb.v`) for simulation.
-4. View the waveform image (`waveform.png`) to verify logic.
-
----
-
-## Tools Used
-
-- **Verilog HDL** – for module design
-- **Icarus Verilog / EDA Playground** – for simulation
-- **EPWave** – for waveform visualization
-
----
-
-## Future Additions
-
-- Multiplexers (MUX / DEMUX)
-- Flip-Flops (D, JK, T)
-- Counters
-- Sequential circuits
-
-# Verilog Digital Library
-
-A collection of synthesizable Verilog modules with testbenches and simulation waveforms.  
-This library currently includes **basic logic gates**.
-
----
-
-## Logic Gates with Waveforms
-
-| Gate | Waveform |
-|------|---------|
-| AND  | ![AND](logic_gates/and_gate/waveform.png) |
-| OR   | ![OR](logic_gates/or_gate/waveform.png) |
-| NOT  | ![NOT](logic_gates/not_gate/waveform.png) |
-| NAND | ![NAND](logic_gates/nand_gate/waveform.png) |
-| NOR  | ![NOR](logic_gates/nor_gate/waveform.png) |
-| XOR  | ![XOR](logic_gates/xor_gate/waveform.png) |
-| XNOR | ![XNOR](logic_gates/xnor_gate/waveform.png) |
-
----
 
 ## How to Use
 
@@ -105,23 +36,11 @@ This library currently includes **basic logic gates**.
 3. Open the testbench files (`_tb.v`) for simulation.
 4. View the waveform image (`waveform.png`) for verification.
 
----
-
 ## Tools Used
 
 - **Verilog HDL** – for module design
 - **Icarus Verilog / EDA Playground** – for simulation
 - **EPWave** – for waveform visualization
-
----
-
-## Future Additions
-
-- Multiplexers (MUX / DEMUX)
-- Flip-Flops (D, JK, T)
-- Counters
-- Sequential circuits
-
 
 # Author
 **Snehal Reddy**  
