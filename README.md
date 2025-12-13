@@ -34,7 +34,12 @@ Each module includes:
 # Tools Used
 - ModelSim / QuestaSim  
 - Verilog HDL  
-- (Optional) GTKWave  
+- (Optional) GTKWave
+
+## Simulation Waveform
+
+![AND Gate Waveform](waveforms/and_gate_waveform.png)
+
 
 
 # Author
